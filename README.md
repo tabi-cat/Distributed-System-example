@@ -6,6 +6,8 @@ All three programs should be running at the same time. I usually set up the serv
 The server and database programs should be running on the same machine. The client program is able to run on a different machine in the same local area network. 
 The local IPv4 address of the machine running the server program should be input into both the server program and the client program. This will be the first thing each program asks for.
 
+The programs have been tested for a variety of invalid or unexpected inputs. The program handles the errors by not using the invalid input and asking the user to try again.
+
 Below are the sample student details stored in the database. These details should be used if answering Y to the question 'are you a current or former EOU student'.
 
 StudentID: csmith
